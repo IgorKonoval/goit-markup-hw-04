@@ -85,6 +85,7 @@ body {
 }
 
 /*------------- Header -------------*/
+
 .logo-head {
   margin-right: 76px;
 }
@@ -95,6 +96,8 @@ body {
 
 .header {
   border-bottom: 1px solid var(--border-color);
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .container-nav {
@@ -213,6 +216,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 8px;
 }
 
 .strategy-icon {
@@ -307,12 +311,13 @@ body {
 
 .team-soc-link:hover,
 .team-soc-link:focus {
-  background-color: var(--hover-soc);
+  background-color: var(--hover-color);
 }
 
 .team-soc-icon {
   width: 16px;
   height: 16px;
+  fill: var(--cloud-footer-color);
 }
 
 /*------------- Cestomers -------------*/
@@ -339,8 +344,9 @@ body {
 .customers-link {
   width: 100%;
   height: 100%;
+  color: var(--customers-icon);
   border: 1px solid var(--customers-icon);
-  border-radius: 5px;
+  border-radius: 4px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -349,7 +355,7 @@ body {
 .customers-icon {
   width: 104px;
   height: 56px;
-  fill: var(--customers-icon);
+  fill: currentColor;
 }
 
 /*------------- Footer -------------*/
