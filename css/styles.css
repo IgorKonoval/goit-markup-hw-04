@@ -348,11 +348,6 @@ body {
   color: var(--hover-color);
 }
 
-/* .customers-link:hover .customers-icon,
-.customers-link:focus .customers-icon {
-  color: var(--hover-color);
-} */
-
 .customers-icon {
   width: 104px;
   height: 56px;
